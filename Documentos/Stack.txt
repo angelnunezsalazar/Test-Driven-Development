@@ -1,0 +1,16 @@
+IsEmpty_NewStack_ReturnsTrue()-IsEmptyWhenNew
+IsEmpty_WithOneElement_ReturnsFalse()-NotIsEmptyWhenPushingAnItem
+IsEmpty_PushAndPopOneElement_ReturnsTrue()-RemovesTheItemWhenPopping
+IsEmpty_PushTwoAndPopOne_ReturnsFalse()
+Pop_WithOneElement_ReturnsTheElement()-PopsTheSameItemThatWasPushed
+Pop_WithTwoElements_ReturnsTheSecondElementPushed()
+Pop_PushTwoPopTwo_ReturnsTheFirstElementPushed()-TheFirstItemPoppedIsTheLastItemPushed???
+Pop_WithNoItems_ThrowsException()-ThrowsExceptionWhenPoppingAnItemItDoesntHold
+
+IsEmptyWhenNew()//Está vacio si no tiene elementos
+NotIsEmptyWhenPushingAnItem()//No está vacio si colocamos elemento
+RemovesTheItemWhenPopping()//Elimina un elemento de la lista al obtenerlo
+PopsTheSameItemThatWasPushed()//Retorna el mismo elemento que se ha ingresado
+TheFirstItemPoppedIsTheLastItemPushed()//El primer elemento obtenido es último elemento que ha sido ingresado
+ThrowsExceptionWhenPoppingAnItemItDoesntHold()//Lanza una excepción al obtener un elemento que no ha sido ingresado
+
