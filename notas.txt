@@ -1,2 +1,0 @@
-Outside-in
-http://emilybache.blogspot.com/2013/04/Outside-In-development-Double-Loop-TDD.html
